@@ -1,0 +1,15 @@
+name: nidus_feature_scaffold
+description: A new brick created with the Mason CLI.
+
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.51 <0.1.0"
+
+vars:
+  feature:
+    type: string
+    description: Nombre de la feature
+    default: Unknown
+    prompt: Cual es el nombre de la feature?
