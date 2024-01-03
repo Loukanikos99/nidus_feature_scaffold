@@ -11,7 +11,7 @@ class Bloc{{feature.pascalCase()}}Estado {
 }
 
 /// {@template Bloc{{feature.pascalCase()}}EstadoInicial}
-/// Estado inicial de los componentes de la pantalla 'Inicio'
+/// Estado inicial de los componentes de la pantalla '{{feature.pascalCase()}}'
 /// {@endtemplate}
 class Bloc{{feature.pascalCase()}}EstadoInicial extends Bloc{{feature.pascalCase()}}Estado {
   /// {@macro Bloc{{feature.pascalCase()}}EstadoInicial}
@@ -19,7 +19,7 @@ class Bloc{{feature.pascalCase()}}EstadoInicial extends Bloc{{feature.pascalCase
 }
 
 /// {@template Bloc{{feature.pascalCase()}}EstadoCargando}
-/// Estado de cargando de los componentes de la pantalla 'Inicio'
+/// Estado de cargando de los componentes de la pantalla '{{feature.pascalCase()}}'
 /// {@endtemplate}
 class Bloc{{feature.pascalCase()}}EstadoCargando extends Bloc{{feature.pascalCase()}}Estado {
   /// {@macro Bloc{{feature.pascalCase()}}EstadoCargando}
@@ -27,7 +27,7 @@ class Bloc{{feature.pascalCase()}}EstadoCargando extends Bloc{{feature.pascalCas
 }
 
 /// {@template Bloc{{feature.pascalCase()}}EstadoExitoso}
-/// Estado exitoso general de los componentes de la pantalla 'Inicio'
+/// Estado exitoso general de los componentes de la pantalla '{{feature.pascalCase()}}'
 /// {@endtemplate}
 class Bloc{{feature.pascalCase()}}EstadoExitoso extends Bloc{{feature.pascalCase()}}Estado {
   /// {@macro Bloc{{feature.pascalCase()}}EstadoExitoso}
@@ -35,7 +35,7 @@ class Bloc{{feature.pascalCase()}}EstadoExitoso extends Bloc{{feature.pascalCase
 }
 
 /// {@template Bloc{{feature.pascalCase()}}EstadoFallido}
-/// Estado de error de los componentes de la pantalla 'Inicio'
+/// Estado de error de los componentes de la pantalla '{{feature.pascalCase()}}'
 /// {@endtemplate}
 class Bloc{{feature.pascalCase()}}EstadoError extends Bloc{{feature.pascalCase()}}Estado {
   /// {@macro Bloc{{feature.pascalCase()}}EstadoError}
